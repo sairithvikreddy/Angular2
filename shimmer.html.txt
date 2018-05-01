@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+@-webkit-keyframes placeHolderShimmer {
+	  0% {
+	    background-position: -468px 0
+	  }
+	  100% {
+	    background-position: 468px 0
+	  }
+	}
+	
+	@keyframes placeHolderShimmer {
+	  0% {
+	    background-position: -468px 0
+	  }
+	  100% {
+	    background-position: 468px 0
+	  }
+	}
+	
+	
+	
+	
+	
+	.animated-background {
+	  -webkit-animation-duration: 1s;
+	  animation-duration: 1s;
+	  -webkit-animation-fill-mode: forwards;
+	  animation-fill-mode: forwards;
+	  -webkit-animation-iteration-count: infinite;
+	  animation-iteration-count: infinite;
+	  -webkit-animation-name: placeHolderShimmer;
+	  animation-name: placeHolderShimmer;
+	  -webkit-animation-timing-function: linear;
+	  animation-timing-function: linear;
+	  background: #f6f7f8;
+	  background: #eeeeee;
+	  background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+	  background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	  -webkit-background-size: 800px 104px;
+	  background-size: 800px 104px;
+	  height: 96px;
+	  position: relative;
+	}
+	
+	
+	
+	.header-top{ width:100%}
+	.header-col1-top, .header-col2-top, .header-col3-top, .header-col4-top{margin-bottom: 10px;width: 80%;height: 20px;}
+	.header-col1-bottom, .header-col2-bottom, .header-col3-bottom, .header-col4-bottom{margin-bottom: 50px;width: 60%;height: 10px;}
+	.header-middle{  height:60px; margin-bottom:20px}
+	.header-bottom{  height:40px;margin-bottom:20px}
+	
+	@media(min-width:768px){
+	.block1{ padding-left:0px}
+	.block2{ padding-right:0px}}
+	.block-top1{ height:20px; width:50%; margin-bottom:10px}
+	.block-top2{height:20px; width:30%; margin-bottom:10px}
+	.block1-row1, .block1-row2, .block1-row3, .block1-row4, .block1-row5, .block1-row6{ height:10px; margin-bottom:10px}
+	.block2-row1, .block2-row2, .block2-row3, .block2-row4, .block2-row5, .block2-row6{ height:10px; margin-bottom:10px}
+</style>
+
+</head>
+
+<body>
+
+
+<!-- Start: header part -->
+<div class="container" style=" margin-top:30px">
+<div class="header-top">
+<div class="col-sm-3 header-col1">
+<div class="animated-background header-col1-top"></div>
+<div class="animated-background header-col1-bottom"></div>
+</div>
+<div class="col-sm-3 header-col2">
+<div class="animated-background header-col2-top"></div>
+<div class="animated-background header-col2-bottom"></div>
+</div>
+<div class="col-sm-3 header-col3">
+<div class="animated-background header-col3-top"></div>
+<div class="animated-background header-col3-bottom"></div>
+</div>
+<div class="col-sm-3 header-col4">
+<div class="animated-background header-col4-top"></div>
+<div class="animated-background header-col4-bottom"></div>
+</div>
+
+<div class="col-sm-12"><div class="animated-background header-middle"></div></div>
+<div class="col-sm-12"><div class="animated-background header-bottom"></div></div>
+</div> <!-- header-top -->
+</div> <!-- contianer -->
+<!-- End: header part -->
+
+
+<div style=" width:100%; height:100px"></div>
+
+
+<!-- Start: bottom blocks -->
+<div class="container">
+<div class="col-sm-12"><h1>Documents</h1></div>
+<div class="col-sm-4">
+<div class="animated-background block-top1"></div>
+<div class="col-sm-6 block1">
+<div class="animated-background block1-row1"></div>
+<div class="animated-background block1-row2"></div>
+<div class="animated-background block1-row3"></div>
+<div class="animated-background block1-row4"></div>
+<div class="animated-background block1-row5"></div>
+<div class="animated-background block1-row6"></div>
+</div>
+<div class="col-sm-6 block2">
+<div class="animated-background block2-row1"></div>
+<div class="animated-background block2-row2"></div>
+<div class="animated-background block2-row3" style="max-width:50%"></div>
+<div class="animated-background block2-row4"></div>
+<div class="animated-background block2-row5"></div>
+<div class="animated-background block2-row6" style="max-width:50%"></div>
+</div>
+</div>
+
+<div class="col-sm-2"></div>
+
+<div class="col-sm-6">
+<div class="animated-background block-top2"></div>
+<div class="col-sm-6 block1">
+<div class="animated-background block1-row1"></div>
+<div class="animated-background block1-row2"></div>
+<div class="animated-background block1-row3"></div>
+<div class="animated-background block1-row4"></div>
+<div class="animated-background block1-row5"></div>
+<div class="animated-background block1-row6"></div>
+</div>
+<div class="col-sm-6 block2">
+<div class="animated-background block2-row1" style="max-width:50%"></div>
+<div class="animated-background block2-row2"></div>
+<div class="animated-background block2-row3"></div>
+<div class="animated-background block2-row4" style="max-width:50%"></div>
+<div class="animated-background block2-row5"></div>
+<div class="animated-background block2-row6" style="max-width:50%"></div>
+</div>
+</div>
+
+</div> <!-- contianer -->
+<!-- End: bottom block -->
+
+
+ 
+</body>
+</html>

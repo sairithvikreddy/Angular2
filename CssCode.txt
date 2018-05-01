@@ -1,0 +1,54 @@
+@-webkit-keyframes placeHolderShimmer {
+	  0% {
+	    background-position: -468px 0
+	  }
+	  100% {
+	    background-position: 468px 0
+	  }
+	}
+	
+	@keyframes placeHolderShimmer {
+	  0% {
+	    background-position: -468px 0
+	  }
+	  100% {
+	    background-position: 468px 0
+	  }
+	}
+	
+	.animated-background {
+	  -webkit-animation-duration: 1s;
+	  animation-duration: 1s;
+	  -webkit-animation-fill-mode: forwards;
+	  animation-fill-mode: forwards;
+	  -webkit-animation-iteration-count: infinite;
+	  animation-iteration-count: infinite;
+	  -webkit-animation-name: placeHolderShimmer;
+	  animation-name: placeHolderShimmer;
+	  -webkit-animation-timing-function: linear;
+	  animation-timing-function: linear;
+	  background: #f6f7f8;
+	  background: #eeeeee;
+	  background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+	  background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	  -webkit-background-size: 800px 104px;
+	  background-size: 800px 104px;
+	  position: relative;
+	}
+	
+	
+	
+	.header-top{ width:100%}
+	.header-col1-top, .header-col2-top, .header-col3-top, .header-col4-top{margin-bottom: 10px;width: 80%;height: 20px;}
+	.header-col1-bottom, .header-col2-bottom, .header-col3-bottom, .header-col4-bottom{margin-bottom: 50px;width: 60%;height: 10px;}
+	.header-middle{  height:60px; margin-bottom:20px}
+	.header-bottom{  height:40px;margin-bottom:20px}
+	
+	@media(min-width:768px){
+	.block1{ padding-left:0px}
+	.block2{ padding-right:0px}}
+	.block-top1{ height:20px; width:50%; margin-bottom:10px}
+	.block-top2{height:20px; width:30%; margin-bottom:10px}
+	.block1-row1, .block1-row2, .block1-row3, .block1-row4, .block1-row5, .block1-row6{ height:10px; margin-bottom:10px}
+	.block2-row1, .block2-row2, .block2-row3, .block2-row4, .block2-row5, .block2-row6{ height:10px; margin-bottom:10px}
